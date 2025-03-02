@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_465890ef76b1b8443dd2e31d02e5c9d7 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_465890ef76b1b8443dd2e31d02e5c9d7" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_465890ef76b1b8443dd2e31d02e5c9d7 = L.map(
+                "map_465890ef76b1b8443dd2e31d02e5c9d7",
+                {
+                    center: [31.567600683679768, -102.75802366079577],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 15,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6f902e1eb6625619b4a5c7c5f0cbdc8a = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_6f902e1eb6625619b4a5c7c5f0cbdc8a.addTo(map_465890ef76b1b8443dd2e31d02e5c9d7);
+        
+    
+            var circle_marker_d8337551a20717a80218f41734342c26 = L.circleMarker(
+                [31.56687270059424, -102.75989707752852],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(map_465890ef76b1b8443dd2e31d02e5c9d7);
+        
+    
+        var popup_5e5e62643948559a1c4d62f915536f02 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_da383e60df3c24573030a728bf47b93c = $(`<div id="html_da383e60df3c24573030a728bf47b93c" style="width: 100.0%; height: 100.0%;">             <div style="width:200px">                 <h4>Sensor S1</h4>                 <b>Methane:</b> 4.60 ppm<br>                 <b>Cluster:</b> -1<br>             </div>             </div>`)[0];
+                popup_5e5e62643948559a1c4d62f915536f02.setContent(html_da383e60df3c24573030a728bf47b93c);
+            
+        
+
+        circle_marker_d8337551a20717a80218f41734342c26.bindPopup(popup_5e5e62643948559a1c4d62f915536f02)
+        ;
+
+        
+    
+    
+            var circle_marker_5e070a51e4f12f2006f4622b56ab39c8 = L.circleMarker(
+                [31.56854036288898, -102.758543854299],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(map_465890ef76b1b8443dd2e31d02e5c9d7);
+        
+    
+        var popup_daa27ab4ddcf74205ea10cb48df73a7d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c6f8f8971b779aa39140bf414e3ef4e0 = $(`<div id="html_c6f8f8971b779aa39140bf414e3ef4e0" style="width: 100.0%; height: 100.0%;">             <div style="width:200px">                 <h4>Sensor S10</h4>                 <b>Methane:</b> 4.40 ppm<br>                 <b>Cluster:</b> -1<br>             </div>             </div>`)[0];
+                popup_daa27ab4ddcf74205ea10cb48df73a7d.setContent(html_c6f8f8971b779aa39140bf414e3ef4e0);
+            
+        
+
+        circle_marker_5e070a51e4f12f2006f4622b56ab39c8.bindPopup(popup_daa27ab4ddcf74205ea10cb48df73a7d)
+        ;
+
+        
+    
+    
+            var circle_marker_dcb014b39e7322f9a13e98037ff89e2e = L.circleMarker(
+                [31.56975357153205, -102.75515045073918],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(map_465890ef76b1b8443dd2e31d02e5c9d7);
+        
+    
+        var popup_af55ae60b86fe8ba75cf7613edb83ed1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1e41044bfb9e249491d5f51b784360fd = $(`<div id="html_1e41044bfb9e249491d5f51b784360fd" style="width: 100.0%; height: 100.0%;">             <div style="width:200px">                 <h4>Sensor S2</h4>                 <b>Methane:</b> 3.42 ppm<br>                 <b>Cluster:</b> -1<br>             </div>             </div>`)[0];
+                popup_af55ae60b86fe8ba75cf7613edb83ed1.setContent(html_1e41044bfb9e249491d5f51b784360fd);
+            
+        
+
+        circle_marker_dcb014b39e7322f9a13e98037ff89e2e.bindPopup(popup_af55ae60b86fe8ba75cf7613edb83ed1)
+        ;
+
+        
+    
+    
+            var circle_marker_dfab77f91fd4329a9bea44b89ceca4c2 = L.circleMarker(
+                [31.568659969709056, -102.755837786796],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(map_465890ef76b1b8443dd2e31d02e5c9d7);
+        
+    
+        var popup_6482f240cc8b629ef2d0fee2ecb19a40 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e15087b98311de96d04a6a2a7b8bc830 = $(`<div id="html_e15087b98311de96d04a6a2a7b8bc830" style="width: 100.0%; height: 100.0%;">             <div style="width:200px">                 <h4>Sensor S3</h4>                 <b>Methane:</b> 4.49 ppm<br>                 <b>Cluster:</b> -1<br>             </div>             </div>`)[0];
+                popup_6482f240cc8b629ef2d0fee2ecb19a40.setContent(html_e15087b98311de96d04a6a2a7b8bc830);
+            
+        
+
+        circle_marker_dfab77f91fd4329a9bea44b89ceca4c2.bindPopup(popup_6482f240cc8b629ef2d0fee2ecb19a40)
+        ;
+
+        
+    
+    
+            var circle_marker_a08cc48e5bf886394ea821febb2bc359 = L.circleMarker(
+                [31.567993292420987, -102.75893830444662],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(map_465890ef76b1b8443dd2e31d02e5c9d7);
+        
+    
+        var popup_5489b68990b8dc0e59a2563a33c9a800 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b4cf2bbc9682736046aceb2d6c97418a = $(`<div id="html_b4cf2bbc9682736046aceb2d6c97418a" style="width: 100.0%; height: 100.0%;">             <div style="width:200px">                 <h4>Sensor S4</h4>                 <b>Methane:</b> 4.25 ppm<br>                 <b>Cluster:</b> -1<br>             </div>             </div>`)[0];
+                popup_5489b68990b8dc0e59a2563a33c9a800.setContent(html_b4cf2bbc9682736046aceb2d6c97418a);
+            
+        
+
+        circle_marker_a08cc48e5bf886394ea821febb2bc359.bindPopup(popup_5489b68990b8dc0e59a2563a33c9a800)
+        ;
+
+        
+    
+    
+            var circle_marker_7edba4bf4490c2eb1af7b7021e9e800d = L.circleMarker(
+                [31.56578009320221, -102.75909087516396],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(map_465890ef76b1b8443dd2e31d02e5c9d7);
+        
+    
+        var popup_c54d88604212f26064e4b9101e792972 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_85766b80a0187f917d03955353522118 = $(`<div id="html_85766b80a0187f917d03955353522118" style="width: 100.0%; height: 100.0%;">             <div style="width:200px">                 <h4>Sensor S5</h4>                 <b>Methane:</b> 3.30 ppm<br>                 <b>Cluster:</b> -1<br>             </div>             </div>`)[0];
+                popup_c54d88604212f26064e4b9101e792972.setContent(html_85766b80a0187f917d03955353522118);
+            
+        
+
+        circle_marker_7edba4bf4490c2eb1af7b7021e9e800d.bindPopup(popup_c54d88604212f26064e4b9101e792972)
+        ;
+
+        
+    
+    
+            var circle_marker_985467715aa00d94e2409e33fffd69ab = L.circleMarker(
+                [31.56577997260168, -102.75908297745072],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(map_465890ef76b1b8443dd2e31d02e5c9d7);
+        
+    
+        var popup_8d53f61680a0b59771b12e12dd628f46 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f3a95b00a579041ea9ac4e0a171e6783 = $(`<div id="html_f3a95b00a579041ea9ac4e0a171e6783" style="width: 100.0%; height: 100.0%;">             <div style="width:200px">                 <h4>Sensor S6</h4>                 <b>Methane:</b> 4.52 ppm<br>                 <b>Cluster:</b> -1<br>             </div>             </div>`)[0];
+                popup_8d53f61680a0b59771b12e12dd628f46.setContent(html_f3a95b00a579041ea9ac4e0a171e6783);
+            
+        
+
+        circle_marker_985467715aa00d94e2409e33fffd69ab.bindPopup(popup_8d53f61680a0b59771b12e12dd628f46)
+        ;
+
+        
+    
+    
+            var circle_marker_c6f3b77a19b4b0ed12e85708338bcfac = L.circleMarker(
+                [31.565290418060844, -102.7584787887852],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(map_465890ef76b1b8443dd2e31d02e5c9d7);
+        
+    
+        var popup_42da09a19223a5c0fd924b6c7c840a37 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_acc3c2988d2890175cfe74d4845c26bb = $(`<div id="html_acc3c2988d2890175cfe74d4845c26bb" style="width: 100.0%; height: 100.0%;">             <div style="width:200px">                 <h4>Sensor S7</h4>                 <b>Methane:</b> 4.74 ppm<br>                 <b>Cluster:</b> -1<br>             </div>             </div>`)[0];
+                popup_42da09a19223a5c0fd924b6c7c840a37.setContent(html_acc3c2988d2890175cfe74d4845c26bb);
+            
+        
+
+        circle_marker_c6f3b77a19b4b0ed12e85708338bcfac.bindPopup(popup_42da09a19223a5c0fd924b6c7c840a37)
+        ;
+
+        
+    
+    
+            var circle_marker_2f61dfdc41f79b70866e4d5b3022600b = L.circleMarker(
+                [31.569330880728877, -102.75737621784184],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(map_465890ef76b1b8443dd2e31d02e5c9d7);
+        
+    
+        var popup_5177537558c3bb08a9e837b3d7c89b20 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1acc7c194a58fa8eb1f1902932ba54a3 = $(`<div id="html_1acc7c194a58fa8eb1f1902932ba54a3" style="width: 100.0%; height: 100.0%;">             <div style="width:200px">                 <h4>Sensor S8</h4>                 <b>Methane:</b> 3.76 ppm<br>                 <b>Cluster:</b> -1<br>             </div>             </div>`)[0];
+                popup_5177537558c3bb08a9e837b3d7c89b20.setContent(html_1acc7c194a58fa8eb1f1902932ba54a3);
+            
+        
+
+        circle_marker_2f61dfdc41f79b70866e4d5b3022600b.bindPopup(popup_5177537558c3bb08a9e837b3d7c89b20)
+        ;
+
+        
+    
+    
+            var circle_marker_1c36111c21b12ef30771da34a3c4a672 = L.circleMarker(
+                [31.56800557505872, -102.75784027490678],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(map_465890ef76b1b8443dd2e31d02e5c9d7);
+        
+    
+        var popup_16e07c6fb02e5727909b2d899ed2ed45 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b5e59f48bf1189e79d084e0d745cd4de = $(`<div id="html_b5e59f48bf1189e79d084e0d745cd4de" style="width: 100.0%; height: 100.0%;">             <div style="width:200px">                 <h4>Sensor S9</h4>                 <b>Methane:</b> 4.27 ppm<br>                 <b>Cluster:</b> -1<br>             </div>             </div>`)[0];
+                popup_16e07c6fb02e5727909b2d899ed2ed45.setContent(html_b5e59f48bf1189e79d084e0d745cd4de);
+            
+        
+
+        circle_marker_1c36111c21b12ef30771da34a3c4a672.bindPopup(popup_16e07c6fb02e5727909b2d899ed2ed45)
+        ;
+
+        
+    
+</script>
+</html>
