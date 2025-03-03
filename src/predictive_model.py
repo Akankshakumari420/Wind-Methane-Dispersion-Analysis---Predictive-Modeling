@@ -629,8 +629,8 @@ def main():
     
     # For testing with direct paths (if needed)
     if not os.path.exists(methane_path):
-        methane_path = r"C:\Users\pradeep dubey\Downloads\methane_sensors.csv"
-        wind_path = r"C:\Users\pradeep dubey\Downloads\wind_data.csv"
+        methane_path = r"C:\Users\Dell\Downloads\Wind-Methane-Dispersion-Analysis---Predictive-Modeling-master\Wind-Methane-Dispersion-Analysis---Predictive-Modeling-master\data\processed\methane_sensors.csv"
+        wind_path = r"C:\Users\Dell\Downloads\Wind-Methane-Dispersion-Analysis---Predictive-Modeling-master\Wind-Methane-Dispersion-Analysis---Predictive-Modeling-master\data\processed\wind_processed.csv"
     
     # Create output directory
     os.makedirs(output_dir, exist_ok=True)
