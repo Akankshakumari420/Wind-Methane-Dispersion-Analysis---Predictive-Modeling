@@ -228,7 +228,7 @@ def main():
     
     # Use direct paths if needed
     if not os.path.exists(methane_path):
-        methane_path, wind_path = r"C:\Users\pradeep dubey\Downloads\methane_sensors.csv", r"C:\Users\pradeep dubey\Downloads\wind_data.csv"
+        methane_path, wind_path = r"C:\Users\Dell\Downloads\Wind-Methane-Dispersion-Analysis---Predictive-Modeling-master\Wind-Methane-Dispersion-Analysis---Predictive-Modeling-master\data\processed\methane_sensors.csv", r"C:\Users\Dell\Downloads\Wind-Methane-Dispersion-Analysis---Predictive-Modeling-master\Wind-Methane-Dispersion-Analysis---Predictive-Modeling-master\data\processed\wind_processed.csv"
     
     # Load data
     print("Loading and preprocessing data...")
