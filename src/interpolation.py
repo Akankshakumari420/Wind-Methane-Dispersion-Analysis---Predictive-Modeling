@@ -257,7 +257,7 @@ def main():
     output_dir = os.path.join(project_dir, 'outputs', 'interpolation')
     
     if not os.path.exists(methane_path):
-        methane_path, wind_path = r"C:\Users\pradeep dubey\Downloads\methane_sensors.csv", r"C:\Users\pradeep dubey\Downloads\wind_data.csv"
+        methane_path, wind_path = r"C:\Users\Dell\Downloads\Wind-Methane-Dispersion-Analysis---Predictive-Modeling-master\Wind-Methane-Dispersion-Analysis---Predictive-Modeling-master\data\processed\methane_sensors.csv", r"C:\Users\Dell\Downloads\Wind-Methane-Dispersion-Analysis---Predictive-Modeling-master\Wind-Methane-Dispersion-Analysis---Predictive-Modeling-master\data\processed\wind_processed.csv"
     
     print("Loading and preprocessing data...")
     methane_df, wind_df = load_data(methane_path, wind_path)
